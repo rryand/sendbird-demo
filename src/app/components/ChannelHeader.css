@@ -1,0 +1,66 @@
+.channel-header {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.user-info-container {
+  display: flex;
+  font-size: 14px;
+  color: black;
+  margin: 8px 64px 8px 8px;
+  border-radius: 5px;
+}
+
+.user-info-container:hover {
+  background-color: #eeeeee;
+  cursor: pointer;
+}
+
+.user-info-container:active {
+  background-color: #c7c7c7;
+}
+
+.user-display-pic {
+  width: 32px;
+  height: 32px;
+  margin: 8px;
+  border-radius: 50%;
+  background-size: cover;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.user-info span {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 200px;
+}
+
+.user-info span:first-child {
+  font-weight: bold;
+}
+
+.user-info span:last-child {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.50);
+}
+
+.add-channel {
+  position: absolute;
+  right: 16px;
+  top: 8px;
+}
+
+.add-channel button {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+}

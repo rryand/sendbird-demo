@@ -1,0 +1,11 @@
+.modal-btn {
+  background-color: rgb(98, 16, 204);
+  padding: 4px;
+  border-radius: 5px;
+  color: white;
+  min-width: 80px;
+}
+
+.modal-btn.disabled {
+  background-color: #c7c7c7;
+}
